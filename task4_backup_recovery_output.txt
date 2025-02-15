@@ -1,0 +1,12 @@
+# Task 4: Backup and Recovery - Expected Log Output
+
+Creating database backup...
+mysqldump: Backup saved as backup.sql
+
+Restoring database...
+mysql: Data restored successfully!
+
+Verification:
+Row counts before backup: 50,000
+Row counts after restore: 50,000
+Database consistency check: PASSED
